@@ -1,12 +1,12 @@
 {
   "name": "practice_generator_function",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Create generators that generate ranged values one at a time.",
   "main": "source/grange.js",
   "scripts": {
     "lint": "eslint . && echo 'Lint finished...\n'",
     "pretest": "npm run -s lint",
-    "test": "cross-env NODE_PATH='source' node source/test/range.js",
+    "test": "cross-env NODE_PATH='source' node source/test/index.js",
     "watch": "watch 'clear && npm run -s test' source"
   },
   "keywords": [

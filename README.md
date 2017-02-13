@@ -23,6 +23,11 @@ npm install --save grange
   - Test:  Should allow a range of only 1 number
 
 
+2. Simple Range Generator Function that should allow numbers to be input and an array returned.
+  - Test: Should return an array of numbers from start to end
+  - Test: Should return a range that ends with the last numbers
+  - Test: Sjhould allow a range that starts with 0
+  - Test: Should allow a range of only 1 number
 
 
 ----------
