@@ -94,3 +94,13 @@ test('step argument', assert => {
   assert.end();
 });
 
+test('transform function', assert => {
+  const message = 'should use a transform function if provided';
+
+  const [...actual] = grange(1, 3, n => n * 4);
+  const expected = [4, 8, 12];
+
+  assert.same(actual, expected, message);
+  assert.end();
+});
+

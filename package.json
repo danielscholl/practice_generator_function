@@ -1,6 +1,6 @@
 {
   "name": "practice_generator_function",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Create generators that generate ranged values one at a time.",
   "main": "source/grange.js",
   "scripts": {

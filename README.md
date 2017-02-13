@@ -32,5 +32,8 @@ npm install --save grange
 3. Range Generator should increment in provided steps
   - Test:  Should obey step increment argument
 
+4. Range Generator should allow for a transform function.
+  - Test:  Should use transform function if provided.
+
 ----------
 >Concept obtained from courses by Eric Elliott used for my own learning purposes 
