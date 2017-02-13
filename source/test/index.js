@@ -84,3 +84,13 @@ test('range generator of 0 - 0', assert => {
   assert.end();
 });
 
+test('step argument', assert => {
+  const message = 'should obey step increment.';
+
+  const [...actual] = grange(0, 9, {step: 3});
+  const expected = [0, 3, 6, 9];
+
+  assert.same(actual, expected, message);
+  assert.end();
+});
+

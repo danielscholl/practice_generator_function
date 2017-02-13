@@ -24,11 +24,13 @@ npm install --save grange
 
 
 2. Simple Range Generator Function that should allow numbers to be input and an array returned.
-  - Test: Should return an array of numbers from start to end
-  - Test: Should return a range that ends with the last numbers
-  - Test: Sjhould allow a range that starts with 0
-  - Test: Should allow a range of only 1 number
+  - Test:  Should return an array of numbers from start to end
+  - Test:  Should return a range that ends with the last numbers
+  - Test:  Should allow a range that starts with 0
+  - Test:  Should allow a range of only 1 number
 
+3. Range Generator should increment in provided steps
+  - Test:  Should obey step increment argument
 
 ----------
->NOTE: Pulled from courses by Eric Elliott for my own learning purposes 
+>Concept obtained from courses by Eric Elliott used for my own learning purposes 
